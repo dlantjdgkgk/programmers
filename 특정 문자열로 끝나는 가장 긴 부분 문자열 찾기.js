@@ -1,8 +1,6 @@
 function solution(myString, pat) {
     let result = '';
     let last = myString.lastIndexOf(pat) + pat.length;
-    
-    console.log(last)
 
     result = myString.substr(0, last);
     
